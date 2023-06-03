@@ -5,7 +5,7 @@ Magicorn made Terraform Module for AWS Provider
 ```
 module "kms" {
   source      = "magicorntech/kms/aws"
-  version     = "0.0.1"
+  version     = "0.0.2"
   tenant      = var.tenant
   name        = var.name
   environment = var.environment
@@ -14,6 +14,8 @@ module "kms" {
   # Enabled Services
   rds_encryption         = true
   elasticache_encryption = true
+  dynamodb_encryption    = true
+  s3_encryption          = true
 
   # Generic Key Configuration
   key_usage           = "ENCRYPT_DECRYPT"
