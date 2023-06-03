@@ -1,0 +1,11 @@
+variable "tenant" {}
+variable "name" {}
+variable "environment" {}
+variable "rds_encryption" {}
+variable "elasticache_encryption" {}
+variable "key_usage" {}
+variable "cmk_spec" {}
+variable "deletion_window" {}
+variable "is_enabled" {}
+variable "enable_key_rotation" {}
+variable "multi_region" {}
