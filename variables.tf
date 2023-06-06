@@ -5,6 +5,7 @@ variable "rds_encryption" {}
 variable "elasticache_encryption" {}
 variable "dynamodb_encryption" {}
 variable "s3_encryption" {}
+variable "mq_encryption" {}
 variable "key_usage" {}
 variable "cmk_spec" {}
 variable "deletion_window" {}
