@@ -21,3 +21,11 @@ output "mq_key_id" {
 output "efs_key_id" {
 	value = aws_kms_key.efs[*].arn
 }
+
+output "ec2_key_id" {
+	value = aws_kms_key.ec2[*].arn
+}
+
+output "ec2_key_pair_name" {
+	value = aws_key_pair.ec2[*].key_name
+}
