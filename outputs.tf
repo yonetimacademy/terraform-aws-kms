@@ -17,3 +17,7 @@ output "s3_key_id" {
 output "mq_key_id" {
 	value = aws_kms_key.mq[*].arn
 }
+
+output "efs_key_id" {
+	value = aws_kms_key.efs[*].arn
+}
