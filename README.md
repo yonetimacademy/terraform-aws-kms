@@ -1,11 +1,11 @@
 # terraform-aws-kms
 
-Magicorn made Terraform Module for AWS Provider
+Cloud&Cloud made Terraform Module for AWS Provider
 --
 ```
 module "kms" {
-  source      = "magicorntech/kms/aws"
-  version     = "0.0.4"
+  source      = "yonetimacademy/kms/aws"
+  version     = "0.0.1"
   tenant      = var.tenant
   name        = var.name
   environment = var.environment
