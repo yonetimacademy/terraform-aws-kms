@@ -29,3 +29,19 @@ output "ec2_key_id" {
 output "ec2_key_pair_name" {
 	value = aws_key_pair.ec2[*].key_name
 }
+
+output "sqs_key_id" {
+	value = aws_kms_key.sqs[*].key_name
+}
+
+output "ecr_key_id" {
+	value = aws_kms_key.ecr[*].key_name
+}
+
+output "sns_key_id" {
+	value = aws_kms_key.sns[*].key_name
+}
+
+output "es_key_id" {
+	value = aws_kms_key.es[*].key_name
+}
