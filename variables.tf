@@ -8,6 +8,10 @@ variable "s3_encryption" {}
 variable "mq_encryption" {}
 variable "efs_encryption" {}
 variable "ec2_encryption" {}
+variable "sqs_encryption" {}
+variable "ecr_encryption" {}
+variable "sns_encryption" {}
+variable "es_encryption" {}
 variable "key_usage" {}
 variable "cmk_spec" {}
 variable "deletion_window" {}
