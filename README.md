@@ -1,6 +1,6 @@
 # terraform-aws-kms
 
-Cloud&Cloud made Terraform Module for AWS Provider
+Cloud&Cloud made Terraform Module for AWS Provider.
 --
 ```
 module "kms" {
