@@ -31,7 +31,8 @@ output "ec2_key_pair_name" {
 }
 
 output "sqs_key_id" {
-	value = aws_kms_key.sqs[*].key_name
+	value = aws_kms_key.sqs[*].arn
+	#value = aws_kms_key.sqs[*].key_name
 }
 
 output "ecr_key_id" {

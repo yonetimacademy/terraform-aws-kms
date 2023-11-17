@@ -7,7 +7,7 @@ resource "aws_kms_key" "sqs" {
   is_enabled               = var.is_enabled
   enable_key_rotation      = var.enable_key_rotation
   multi_region             = var.multi_region
-
+  
   policy = <<POLICY
 {
   "Version": "2012-10-17",
