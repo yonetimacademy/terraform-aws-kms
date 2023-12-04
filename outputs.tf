@@ -36,13 +36,13 @@ output "sqs_key_id" {
 }
 
 output "ecr_key_id" {
-	value = aws_kms_key.ecr[*].key_name
+	value = aws_kms_key.ecr[*].arn
 }
 
 output "sns_key_id" {
-	value = aws_kms_key.sns[*].key_name
+	value = aws_kms_key.sns[*].arn
 }
 
 output "es_key_id" {
-	value = aws_kms_key.es[*].key_name
+	value = aws_kms_key.es[*].arn
 }
